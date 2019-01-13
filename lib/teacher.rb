@@ -4,7 +4,7 @@ class Teacher < User
     
     def teach 
       element = KNOWLEDGE.sample
-      
+      return element
     end
   
 end
